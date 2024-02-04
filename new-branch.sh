@@ -51,7 +51,7 @@ else
   echo "-----------------------"
 fi
 
-read -d '' readme << EOF
+read -d '' readme << "EOF"
 # daily-bevy
 
 Learn [Bevy](https://bevyengine.org/) by exploring a small example (almost) every day.
