@@ -6,7 +6,7 @@ execute=true
 echo "moving to new branch: $1"
 
 if [[ "${execute}" == "true" ]]; then
-  git checkout 52a42a9
+  git -c advice.detachedHead=false checkout 52a42a9
   git switch -c $1
 fi
 
