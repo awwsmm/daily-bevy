@@ -50,3 +50,59 @@ else
   echo "$main_rs"
   echo "-----------------------"
 fi
+
+read -d '' readme << EOF
+# daily-bevy
+
+Learn [Bevy](https://bevyengine.org/) by exploring a small example (almost) every day.
+
+[Bevy](https://github.com/bevyengine/bevy/) is a free, open-source, cross-platform (Windows, macOS, Linux, Web, iOS, Android) game engine written in [Rust](https://www.rust-lang.org/).
+
+This README shows the >>>>>NTH<<<<< entry in this series. All other entries can be found at [daily-bevy/branches](https://github.com/awwsmm/daily-bevy/branches).
+
+## Clear Color
+
+Today is the >>>>>NTH<<<<< day of Daily Bevy.
+
+This kata uses [Bevy `v0.12.1`](https://github.com/bevyengine/bevy/tree/v0.12.1).
+
+### Today's Kata
+
+...
+
+#### The Code
+
+Here's the `main.rs` for this example
+
+```rust
+...
+```
+
+And here's the `Cargo.toml` for this example
+
+```toml
+[dependencies]
+bevy = "0.12.1"
+```
+
+#### Discussion
+
+...
+
+## Learn More
+
+If you found this first kata interesting, head over to [daily-bevy/branches](https://github.com/awwsmm/daily-bevy/branches) to see the rest of them.
+
+If you have questions, comments, or corrections, please head over to [daily-bevy/discussions](https://github.com/awwsmm/daily-bevy/discussions) to join the conversation.
+
+If you like what you've read above, you can [follow me on Bluesky](https://bsky.app/profile/awwsmm.bsky.social) or [Mastodon](https://mas.to/@awwsmm).
+EOF
+
+if [[ "${execute}" == "true" ]]; then
+  mkdir src
+  echo "$readme" > README.md
+else
+  echo "------ README.md ------"
+  echo "$readme"
+  echo "-----------------------"
+fi
