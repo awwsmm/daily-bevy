@@ -519,3 +519,14 @@ If you found this first kata interesting, head over to [daily-bevy/branches](htt
 If you have questions, comments, or corrections, please head over to [daily-bevy/discussions](https://github.com/awwsmm/daily-bevy/discussions) to join the conversation.
 
 If you like what you've read above, you can [follow me on Bluesky](https://bsky.app/profile/awwsmm.bsky.social) or [Mastodon](https://mas.to/@awwsmm).
+
+## All Katas
+
+1. [Hello, Bevy!](https://github.com/awwsmm/daily-bevy)
+2. [File Drag and Drop](https://github.com/awwsmm/daily-bevy/tree/app/drag_and_drop)
+3. [Keyboard Input](https://github.com/awwsmm/daily-bevy/tree/input/keyboard_input)
+4. [Clear Color](https://github.com/awwsmm/daily-bevy/tree/window/clear_color)
+5. [Camera2dBundle](https://github.com/awwsmm/daily-bevy/tree/bonus/Camera2dBundle) (bonus!)
+6. [Camera2dBundle 2](https://github.com/awwsmm/daily-bevy/tree/bonus/Camera2dBundle_2) (bonus!)
+7. [Camera2dBundle 3](https://github.com/awwsmm/daily-bevy/tree/bonus/Camera2dBundle_3) (bonus!)
+8. _...more coming soon!_
