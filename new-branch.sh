@@ -21,7 +21,6 @@ bevy = "0.12.1"
 EOF
 
 if [[ "${execute}" == "true" ]]; then
-  mkdir src
   echo "$cargo_toml" > Cargo.toml
 else
   echo "----- Cargo.toml -----"
@@ -30,7 +29,7 @@ else
 fi
 
 read -d '' main_rs << EOF
-// source: https://github.com/bevyengine/bevy/blob/v0.12.1/examples/hello_world.rs
+// source: https://github.com/bevyengine/bevy/blob/v0.12.1/examples/$1.rs
 
 use bevy::prelude::*;
 
