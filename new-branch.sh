@@ -99,7 +99,6 @@ If you like what you've read above, you can [follow me on Bluesky](https://bsky.
 EOF
 
 if [[ "${execute}" == "true" ]]; then
-  mkdir src
   echo "$readme" > README.md
 else
   echo "------ README.md ------"
