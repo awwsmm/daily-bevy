@@ -530,5 +530,6 @@ If you like what you've read above, you can [follow me on Bluesky](https://bsky.
 6. [Camera2dBundle 2](https://github.com/awwsmm/daily-bevy/tree/bonus/Camera2dBundle_2) (bonus!)
 7. [Camera2dBundle 3](https://github.com/awwsmm/daily-bevy/tree/bonus/Camera2dBundle_3) (bonus!)
 8. [Text 2D](https://github.com/awwsmm/daily-bevy/tree/2d/text2d)
+9. [3D Shapes](https://github.com/awwsmm/daily-bevy/tree/3d/3d_shapes)
 
 _...more coming soon!_
