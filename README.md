@@ -532,5 +532,6 @@ If you like what you've read above, you can [follow me on Bluesky](https://bsky.
 8. [Text 2D](https://github.com/awwsmm/daily-bevy/tree/2d/text2d)
 9. [3D Shapes](https://github.com/awwsmm/daily-bevy/tree/3d/3d_shapes)
 10. [Button](https://github.com/awwsmm/daily-bevy/tree/ui/button)
+11. [WASM](https://github.com/awwsmm/daily-bevy/tree/bonus/WASM) (bonus!)
 
 _...more coming soon!_
