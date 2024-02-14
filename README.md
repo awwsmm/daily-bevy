@@ -535,5 +535,6 @@ If you like what you've read above, you can [follow me on Bluesky](https://bsky.
 11. [WASM](https://github.com/awwsmm/daily-bevy/tree/bonus/WASM) (bonus!)
 12. [Asset Loading](https://github.com/awwsmm/daily-bevy/tree/asset/asset_loading)
 13. [Scene](https://github.com/awwsmm/daily-bevy/tree/scene/scene)
+14. [Reflection](https://github.com/awwsmm/daily-bevy/tree/reflection/reflection)
 
 _...more coming soon!_
