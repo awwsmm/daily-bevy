@@ -537,5 +537,6 @@ If you like what you've read above, you can [follow me on Bluesky](https://bsky.
 13. [Scene](https://github.com/awwsmm/daily-bevy/tree/scene/scene)
 14. [Reflection](https://github.com/awwsmm/daily-bevy/tree/reflection/reflection)
 15. [Game Menu Part 1](https://github.com/awwsmm/daily-bevy/tree/games/game_menu)
+16. [Game Menu Part 2](https://github.com/awwsmm/daily-bevy/tree/games/game_menu_2)
 
 _...more coming soon!_
