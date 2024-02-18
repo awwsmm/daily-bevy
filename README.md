@@ -539,5 +539,6 @@ If you like what you've read above, you can [follow me on Bluesky](https://bsky.
 15. [Game Menu Part 1](https://github.com/awwsmm/daily-bevy/tree/games/game_menu)
 16. [Game Menu Part 2](https://github.com/awwsmm/daily-bevy/tree/games/game_menu_2)
 17. [Game Menu Part 3](https://github.com/awwsmm/daily-bevy/tree/games/game_menu_3)
+18. [v0.13.0](https://github.com/awwsmm/daily-bevy/tree/bonus/v0.13.0) (bonus!)
 
 _...more coming soon!_
