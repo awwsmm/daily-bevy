@@ -1,0 +1,9 @@
+[package]
+name = "daily_bevy"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bevy = "0.13.0"
+bevy_pkv = { git = "https://github.com/johanhelsing/bevy_pkv" }
+serde = "1.0.196"
