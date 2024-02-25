@@ -16,6 +16,7 @@ if [[ "${execute}" == "true" ]]; then
 fi
 
 N_BRANCH=$(git branch -r | wc -l | sed 's/ //g')
+N_BRANCH=$((N_BRANCH + 1))
 
 read -d '' cargo_toml << EOF
 [package]
