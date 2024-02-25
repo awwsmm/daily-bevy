@@ -3,12 +3,19 @@
 # for debug mode, set $execute to anything other than "true"
 execute=true
 
+BEVY_VERSION="0.13.0"
+
+# usage: ./new-branch.sh path/to/example "Example Name"
+# e.g.   ./new-branch.sh 2d/2d_gizmos "2D Gizmos"
+
 echo "moving to new branch: $1"
 
 if [[ "${execute}" == "true" ]]; then
   git -c advice.detachedHead=false checkout 52a42a9
   git switch -c $1
 fi
+
+N_BRANCH=$(git branch -r | wc -l | sed 's/ //g')
 
 read -d '' cargo_toml << EOF
 [package]
@@ -17,7 +24,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-bevy = "0.12.1"
+bevy = "$BEVY_VERSION"
 EOF
 
 if [[ "${execute}" == "true" ]]; then
@@ -29,7 +36,7 @@ else
 fi
 
 read -d '' main_rs << EOF
-// source: https://github.com/bevyengine/bevy/blob/v0.12.1/examples/$1.rs
+// source: https://github.com/bevyengine/bevy/blob/v$BEVY_VERSION/examples/$1.rs
 
 use bevy::prelude::*;
 
@@ -51,20 +58,20 @@ else
   echo "-----------------------"
 fi
 
-read -d '' readme << "EOF"
+read -d '' readme << EOF
 # daily-bevy
 
 Learn [Bevy](https://bevyengine.org/) by exploring a small example (almost) every day.
 
 [Bevy](https://github.com/bevyengine/bevy/) is a free, open-source, cross-platform (Windows, macOS, Linux, Web, iOS, Android) game engine written in [Rust](https://www.rust-lang.org/).
 
-This README shows the >>>>>NTH<<<<< entry in this series. All other entries can be found at [daily-bevy/branches](https://github.com/awwsmm/daily-bevy/branches).
+This README shows entry #$N_BRANCH in this series. All other entries can be found at [daily-bevy/branches](https://github.com/awwsmm/daily-bevy/branches).
 
-## Clear Color
+## $2
 
-Today is the >>>>>NTH<<<<< day of Daily Bevy.
+Today is day #$N_BRANCH of Daily Bevy.
 
-This kata uses [Bevy `v0.12.1`](https://github.com/bevyengine/bevy/tree/v0.12.1).
+This kata uses [Bevy \`v$BEVY_VERSION\`](https://github.com/bevyengine/bevy/tree/v$BEVY_VERSION).
 
 ### Today's Kata
 
@@ -72,18 +79,18 @@ This kata uses [Bevy `v0.12.1`](https://github.com/bevyengine/bevy/tree/v0.12.1)
 
 #### The Code
 
-Here's the `main.rs` for this example
+Here's the \`main.rs\` for this example
 
-```rust
+\`\`\`rust
 ...
-```
+\`\`\`
 
-And here's the `Cargo.toml` for this example
+And here's the \`Cargo.toml\` for this example
 
-```toml
+\`\`\`toml
 [dependencies]
-bevy = "0.12.1"
-```
+bevy = "$BEVY_VERSION"
+\`\`\`
 
 #### Discussion
 
