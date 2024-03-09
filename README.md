@@ -542,5 +542,6 @@ If you like what you've read above, you can [follow me on Bluesky](https://bsky.
 18. [v0.13.0](https://github.com/awwsmm/daily-bevy/tree/bonus/v0.13.0) (bonus!)
 19. [WASM Persistence](https://github.com/awwsmm/daily-bevy/tree/bonus/WASM_Persistence) (bonus!)
 20. [2D Gizmos](https://github.com/awwsmm/daily-bevy/tree/2d/2d_gizmos)
+21. [2D Viewport to World](https://github.com/awwsmm/daily-bevy/tree/2d/2d_viewport_to_world)
 
 _...more coming soon!_
