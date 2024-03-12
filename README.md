@@ -543,5 +543,10 @@ If you like what you've read above, you can [follow me on Bluesky](https://bsky.
 19. [WASM Persistence](https://github.com/awwsmm/daily-bevy/tree/bonus/WASM_Persistence) (bonus!)
 20. [2D Gizmos](https://github.com/awwsmm/daily-bevy/tree/2d/2d_gizmos)
 21. [2D Viewport to World](https://github.com/awwsmm/daily-bevy/tree/2d/2d_viewport_to_world)
+22. [Low-Power Windows](https://github.com/awwsmm/daily-bevy/tree/window/low_power)
 
 _...more coming soon!_
+
+### putting the above into practice
+
+After katas 1-20, above, I was able to build [this Tic-Tac-Toe game](https://github.com/awwsmm/tic-tac-toe).
