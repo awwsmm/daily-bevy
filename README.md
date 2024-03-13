@@ -544,6 +544,7 @@ If you like what you've read above, you can [follow me on Bluesky](https://bsky.
 20. [2D Gizmos](https://github.com/awwsmm/daily-bevy/tree/2d/2d_gizmos)
 21. [2D Viewport to World](https://github.com/awwsmm/daily-bevy/tree/2d/2d_viewport_to_world)
 22. [Low-Power Windows](https://github.com/awwsmm/daily-bevy/tree/window/low_power)
+23. [Sprite Sheet](https://github.com/awwsmm/daily-bevy/tree/2d/sprite_sheet)
 
 _...more coming soon!_
 
