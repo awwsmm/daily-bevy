@@ -547,6 +547,7 @@ If you like what you've read above, you can [follow me on Bluesky](https://bsky.
 23. [Sprite Sheet](https://github.com/awwsmm/daily-bevy/tree/2d/sprite_sheet)
 24. [Bounding Box 2D](https://github.com/awwsmm/daily-bevy/tree/2d/bounding_2d)
 25. [Virtual TIme](https://github.com/awwsmm/daily-bevy/tree/time/virtual_time)
+26. [Events](https://github.com/awwsmm/daily-bevy/tree/ecs/event)
 
 _...more coming soon!_
 

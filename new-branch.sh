@@ -3,7 +3,7 @@
 # for debug mode, set $execute to anything other than "true"
 execute=true
 
-BEVY_VERSION="0.13.0"
+BEVY_VERSION="0.13.2"
 
 # usage: ./new-branch.sh path/to/example "Example Name"
 # e.g.   ./new-branch.sh 2d/2d_gizmos "2D Gizmos"
